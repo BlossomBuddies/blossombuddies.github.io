@@ -1,0 +1,94 @@
+body {
+	color: rgb(0, 73, 0);
+	font-family: "Chalkboard";
+}
+
+a, a:link, a:visited, a:hover, a:active {
+	color: rgb(0, 73, 0);
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+.header.image {
+	width: 100%;
+	height: auto;
+}
+
+hr {
+	border-color: rgb(0, 73, 0);
+}
+
+h1, h2 {
+	font-family: "Noteworthy";
+	text-align: center;
+}
+
+p {
+	margin: 0px;
+}
+
+.headingandparagraph h4, .headingandparagraph p {
+	display: inline;
+    vertical-align: top;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	height: 100px;
+	width: 100px;
+}
+
+.carousel-control-next-icon:after, .carousel-control-prev-icon:after {
+	font-size: 50px;
+	color: rgb(0, 73, 0);
+}
+
+.carousel-control-next-icon:after {
+	content: ">";
+}
+
+.carousel-control-prev-icon:after {
+	content: "<";
+}
+
+.list, li {
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.text {
+	font-family: 'Great Vibes';
+}
+
+.icons {
+	text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+	#slideshow {
+		display: block;
+		margin: auto;
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	body {
+		border: 25px solid rgb(0, 73, 0);
+	}
+
+	#slideshow {
+		display: block;
+		margin: auto;
+		width: 50%;
+		height: auto;
+	}
+}
