@@ -1,6 +1,6 @@
 body {
 	color: rgb(0, 73, 0);
-	font-family: "Chalkboard";
+	font-family: "Varela Round";
 }
 
 a, a:link, a:visited, a:hover, a:active {
@@ -22,7 +22,7 @@ hr {
 }
 
 h1, h2 {
-	font-family: "Noteworthy";
+	font-family: "Varela Round";
 	text-align: center;
 }
 
