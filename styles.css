@@ -81,6 +81,11 @@ ul {
 		width: 100%;
 		height: auto;
 	}
+
+	.grid-row {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
 }
 
 @media only screen and (min-width: 1200px) {
@@ -93,5 +98,11 @@ ul {
 		margin: auto;
 		width: 50%;
 		height: auto;
+	}
+
+	.grid-row {
+		display: flex;
+		justify-content: space-evenly;
+		flex-flow: row wrap;
 	}
 }
